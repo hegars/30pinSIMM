@@ -4,4 +4,4 @@
  
  30 Pin SIMM FP RAM Module 
 
-WORK IN PROGRESS
+WORK IN PROGRESS - Dont let your blue smoke out.
