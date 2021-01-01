@@ -1,4 +1,4 @@
-# 30pinSIMM
+# 30 pin SIMM FP Memory Module Design
  
  KiCAD design for a 30 pin SIMM Fastpage Memory Module
  
