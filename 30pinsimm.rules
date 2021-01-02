@@ -11,12 +11,12 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2520)
+    (start_pass_no 4224)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
-      (preferred_direction_trace_costs 1.8)
-      (against_preferred_direction_trace_costs 7.1)
+      (preferred_direction_trace_costs 1.6)
+      (against_preferred_direction_trace_costs 6.9)
     )
     (layer_rule In1.Cu
       (active on)
@@ -25,16 +25,16 @@
       (against_preferred_direction_trace_costs 1.2)
     )
     (layer_rule In2.Cu
-      (active on)
-      (preferred_direction horizontal)
+      (active off)
+      (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 6.3)
+      (against_preferred_direction_trace_costs 1.2)
     )
     (layer_rule B.Cu
       (active on)
-      (preferred_direction vertical)
-      (preferred_direction_trace_costs 1.8)
-      (against_preferred_direction_trace_costs 2.0)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.6)
+      (against_preferred_direction_trace_costs 6.9)
     )
   )
   (rule
@@ -76,8 +76,13 @@
     (rule
       (width 250.0)
     )
+    (layer_rule In2.Cu
+      (rule 
+        (width 0.0) 
+      )
+    )
     (circuit 
-      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+      (use_layer F.Cu In1.Cu B.Cu)
     )
   )
   (class "kicad_default"
@@ -90,8 +95,13 @@
     (rule
       (width 250.0)
     )
+    (layer_rule In2.Cu
+      (rule 
+        (width 0.0) 
+      )
+    )
     (circuit 
-      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+      (use_layer F.Cu In1.Cu B.Cu)
     )
   )
 )
