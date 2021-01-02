@@ -39,10 +39,6 @@
             99727.7 -105062  99441 -105042  99441 -94716.6  188468 -94716.6
             188468 -111303)
     )
-    (plane +5V (polygon F.Cu 0  188468 -111379  99314 -111379  99314 -94742  188468 -94742
-            188468 -111379))
-    (plane GND (polygon B.Cu 0  188468 -94705.8  99314 -94705.8  99314 -111343  188468 -111343
-            188468 -94705.8))
     (keepout "" (polygon signal 0  184840 -99638.7  184596 -99697.3  184364 -99793.4  184150 -99924.6
             183959 -100088  183796 -100279  183664 -100493  183568 -100725
             183510 -100969  183490 -101219  183510 -101469  183568 -101713
@@ -92,19 +88,19 @@
   )
   (library
     (image "Sebs:SOJ-20"
-      (outline (path signal 120  8509 -4318  -8509 -4318))
-      (outline (path signal 120  8509 4318  -8509 4318))
-      (outline (path signal 150  8509 -2413  -8509 -2413))
-      (outline (path signal 150  8509 2413  8509 -2413))
-      (outline (path signal 150  -8509 2413  8509 2413))
-      (outline (path signal 150  -8509 -2413  -8509 -1016))
-      (outline (path signal 120  -8509 -4318  -8509 4318))
-      (outline (path signal 120  8509 3810  -8509 3810))
-      (outline (path signal 120  8509 -3810  -8509 -3810))
-      (outline (path signal 120  -8509 3429  8509 3429))
-      (outline (path signal 120  -8509 -3429  8509 -3429))
-      (outline (path signal 120  8509 -4318  8509 4318))
       (outline (path signal 150  -8509 1016  -8509 2413))
+      (outline (path signal 120  8509 -4318  8509 4318))
+      (outline (path signal 120  -8509 -3429  8509 -3429))
+      (outline (path signal 120  -8509 3429  8509 3429))
+      (outline (path signal 120  8509 -3810  -8509 -3810))
+      (outline (path signal 120  8509 3810  -8509 3810))
+      (outline (path signal 120  -8509 -4318  -8509 4318))
+      (outline (path signal 150  -8509 -2413  -8509 -1016))
+      (outline (path signal 150  -8509 2413  8509 2413))
+      (outline (path signal 150  8509 2413  8509 -2413))
+      (outline (path signal 150  8509 -2413  -8509 -2413))
+      (outline (path signal 120  8509 4318  -8509 4318))
+      (outline (path signal 120  8509 -4318  -8509 -4318))
       (pin Rect[T]Pad_800x2000_um 14 7493 3556)
       (pin Rect[T]Pad_800x2000_um 15 6223 3556)
       (pin Rect[T]Pad_800x2000_um 16 4953 3556)
@@ -127,19 +123,19 @@
       (pin Rect[T]Pad_800x2000_um 13 7620 -3556)
     )
     (image "Sebs:SOJ-24"
-      (outline (path signal 150  -8509 1016  -8509 2413))
-      (outline (path signal 120  8509 -4318  8509 4318))
-      (outline (path signal 120  -8509 -3429  8509 -3429))
-      (outline (path signal 120  -8509 3429  8509 3429))
-      (outline (path signal 120  8509 -3810  -8509 -3810))
-      (outline (path signal 120  8509 3810  -8509 3810))
-      (outline (path signal 120  -8509 -4318  -8509 4318))
-      (outline (path signal 150  -8509 -2413  -8509 -1016))
-      (outline (path signal 150  -8509 2413  8509 2413))
-      (outline (path signal 150  8509 2413  8509 -2413))
-      (outline (path signal 150  8509 -2413  -8509 -2413))
-      (outline (path signal 120  8509 4318  -8509 4318))
       (outline (path signal 120  8509 -4318  -8509 -4318))
+      (outline (path signal 120  8509 4318  -8509 4318))
+      (outline (path signal 150  8509 -2413  -8509 -2413))
+      (outline (path signal 150  8509 2413  8509 -2413))
+      (outline (path signal 150  -8509 2413  8509 2413))
+      (outline (path signal 150  -8509 -2413  -8509 -1016))
+      (outline (path signal 120  -8509 -4318  -8509 4318))
+      (outline (path signal 120  8509 3810  -8509 3810))
+      (outline (path signal 120  8509 -3810  -8509 -3810))
+      (outline (path signal 120  -8509 3429  8509 3429))
+      (outline (path signal 120  -8509 -3429  8509 -3429))
+      (outline (path signal 120  8509 -4318  8509 4318))
+      (outline (path signal 150  -8509 1016  -8509 2413))
       (pin Rect[T]Pad_800x2000_um 19 1270 3556)
       (pin Rect[T]Pad_800x2000_um 21 -1270 3556)
       (pin Rect[T]Pad_800x2000_um 8 1270 -3556)
@@ -166,29 +162,29 @@
       (pin Rect[T]Pad_800x2000_um 13 7620 -3556)
     )
     (image Sebs:30pinSIMM
-      (outline (path signal 120  44704 5207  45720 3937))
-      (outline (path signal 120  43561 3937  44704 5207))
-      (outline (path signal 120  0 16590  89030 16590))
-      (outline (path signal 120  2032 0  2032 4318))
-      (outline (path signal 120  0 6350  0 16590))
-      (outline (path signal 120  89030 0  89030 16590))
-      (outline (path signal 120  4826 10160  4744.73 9672.95  4509.71 9238.68  4146.42 8904.25
-            3694.23 8705.9  3202.13 8665.12  2723.46 8786.34  2310.08 9056.41
-            2006.79 9446.08  1846.46 9913.11  1846.46 10406.9  2006.79 10873.9
-            2310.08 11263.6  2723.46 11533.7  3202.13 11654.9  3694.23 11614.1
-            4146.42 11415.8  4509.71 11081.3  4744.73 10647  4826 10160))
-      (outline (path signal 120  3380 0  3380 10160))
-      (outline (path signal 120  0 10160  3380 10160))
-      (outline (path signal 120  2032 0  89030 0))
-      (outline (path signal 120  85647 0  85647 10160))
-      (outline (path signal 120  85647 10160  89027 10160))
+      (outline (path signal 120  43561 3937  45720 3937))
+      (outline (path signal 120  44704 0  44704 3937))
       (outline (path signal 120  87122 10160  87040.7 9672.95  86805.7 9238.68  86442.4 8904.25
             85990.2 8705.9  85498.1 8665.12  85019.5 8786.34  84606.1 9056.41
             84302.8 9446.08  84142.5 9913.11  84142.5 10406.9  84302.8 10873.9
             84606.1 11263.6  85019.5 11533.7  85498.1 11654.9  85990.2 11614.1
             86442.4 11415.8  86805.7 11081.3  87040.7 10647  87122 10160))
-      (outline (path signal 120  44704 0  44704 3937))
-      (outline (path signal 120  43561 3937  45720 3937))
+      (outline (path signal 120  85647 10160  89027 10160))
+      (outline (path signal 120  85647 0  85647 10160))
+      (outline (path signal 120  2032 0  89030 0))
+      (outline (path signal 120  0 10160  3380 10160))
+      (outline (path signal 120  3380 0  3380 10160))
+      (outline (path signal 120  4826 10160  4744.73 9672.95  4509.71 9238.68  4146.42 8904.25
+            3694.23 8705.9  3202.13 8665.12  2723.46 8786.34  2310.08 9056.41
+            2006.79 9446.08  1846.46 9913.11  1846.46 10406.9  2006.79 10873.9
+            2310.08 11263.6  2723.46 11533.7  3202.13 11654.9  3694.23 11614.1
+            4146.42 11415.8  4509.71 11081.3  4744.73 10647  4826 10160))
+      (outline (path signal 120  89030 0  89030 16590))
+      (outline (path signal 120  0 6350  0 16590))
+      (outline (path signal 120  2032 0  2032 4318))
+      (outline (path signal 120  0 16590  89030 16590))
+      (outline (path signal 120  43561 3937  44704 5207))
+      (outline (path signal 120  44704 5207  45720 3937))
       (pin "Rect[A][0,-1400]Pad_1780x3500_um" 21 58674 3302)
       (pin "Rect[A][0,-1400]Pad_1780x3500_um" 20 56134 3302)
       (pin "Rect[A][0,-1400]Pad_1780x3500_um" 29 78994 3302)
@@ -221,16 +217,16 @@
       (pin "Rect[A][0,-1400]Pad_1780x3500_um" 1 7874 3302)
     )
     (image Capacitors_SMD:C_0805
-      (outline (path signal 50  1750 -870  -1750 -870))
-      (outline (path signal 50  1750 -870  1750 880))
-      (outline (path signal 50  -1750 880  -1750 -870))
-      (outline (path signal 50  -1750 880  1750 880))
-      (outline (path signal 120  -500 -850  500 -850))
-      (outline (path signal 120  500 850  -500 850))
-      (outline (path signal 100  -1000 620  1000 620))
-      (outline (path signal 100  1000 620  1000 -620))
-      (outline (path signal 100  1000 -620  -1000 -620))
       (outline (path signal 100  -1000 -620  -1000 620))
+      (outline (path signal 100  1000 -620  -1000 -620))
+      (outline (path signal 100  1000 620  1000 -620))
+      (outline (path signal 100  -1000 620  1000 620))
+      (outline (path signal 120  500 850  -500 850))
+      (outline (path signal 120  -500 -850  500 -850))
+      (outline (path signal 50  -1750 880  1750 880))
+      (outline (path signal 50  -1750 880  -1750 -870))
+      (outline (path signal 50  1750 -870  1750 880))
+      (outline (path signal 50  1750 -870  -1750 -870))
       (pin Rect[T]Pad_1000x1250_um 1 -1000 0)
       (pin Rect[T]Pad_1000x1250_um 2 1000 0)
     )
@@ -277,7 +273,7 @@
       (pins U3-3 U2-5 U1-5 SIMM1-27)
     )
     (net /A10
-      (pins U3-5 U1-8 SIMM1-19)
+      (pins U3-5 U2-8 U1-8 SIMM1-19)
     )
     (net /QP
       (pins U3-25 SIMM1-26)
@@ -289,7 +285,7 @@
       (pins U2-25 SIMM1-25)
     )
     (net GND
-      (pins U3-26 U2-14 U2-26 U1-14 U1-26 SIMM1-22 SIMM1-9 C3-1 C2-1 C1-1)
+      (pins U3-26 U2-14 U2-22 U2-26 U1-14 U1-22 U1-26 SIMM1-22 SIMM1-9 C3-1 C2-1 C1-1)
     )
     (net /A9
       (pins U3-22 U2-21 U1-21 SIMM1-18)
@@ -348,25 +344,15 @@
     (net "Net-(U1-Pad6)"
       (pins U1-6)
     )
-    (net "Net-(U1-Pad22)"
-      (pins U1-22)
-    )
-    (net "Net-(U2-Pad8)"
-      (pins U2-8)
-    )
     (net "Net-(U2-Pad6)"
       (pins U2-6)
-    )
-    (net "Net-(U2-Pad22)"
-      (pins U2-22)
     )
     (net "Net-(U3-Pad23)"
       (pins U3-23)
     )
     (class kicad_default "" +5V /A0 /A1 /A10 /A11 /A2 /A3 /A4 /A5 /A6 /A7
       /A8 /A9 /CAS /CASP /DP /DQ0 /DQ1 /DQ2 /DQ3 /DQ4 /DQ5 /DQ6 /DQ7 /QP /RAS
-      /WE GND "Net-(U1-Pad22)" "Net-(U1-Pad6)" "Net-(U2-Pad22)" "Net-(U2-Pad6)"
-      "Net-(U2-Pad8)" "Net-(U3-Pad17)" "Net-(U3-Pad23)" "Net-(U3-Pad4)" "Net-(U3-Pad5)"
+      /WE GND "Net-(U1-Pad6)" "Net-(U2-Pad6)" "Net-(U3-Pad23)" "Net-(U3-Pad4)"
       (circuit
         (use_via Via[0-3]_800:400_um)
       )
