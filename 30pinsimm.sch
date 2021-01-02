@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "4Mbyte 30 Pin SIMM 8/9 Bit FPM DRAM Module"
+Date "2021-01-02"
+Rev "v0.2"
+Comp "https://pcb.hegars.com/?sku=4mbfpmsimm"
+Comment1 "https://github.com/hegars/30pinSIMM/"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -333,7 +333,7 @@ RAS
 Text Label 4400 4100 0    50   ~ 0
 A9
 Text Label 3250 4300 0    50   ~ 0
-A1
+A0
 Text Label 3250 4400 0    50   ~ 0
 A1
 Text Label 3250 4500 0    50   ~ 0
@@ -354,55 +354,55 @@ Text Label 4950 4500 0    50   ~ 0
 A2
 Text Label 4950 4600 0    50   ~ 0
 A3
-Text Label 6250 3150 0    50   ~ 0
+Text Label 6250 3150 1    50   ~ 0
 A0
-Text Label 6350 3050 0    50   ~ 0
+Text Label 6350 3150 1    50   ~ 0
 A1
-Text Label 6450 3150 0    50   ~ 0
+Text Label 6450 3150 1    50   ~ 0
 A2
-Text Label 6550 3050 0    50   ~ 0
+Text Label 6550 3150 1    50   ~ 0
 A3
-Text Label 6650 3150 0    50   ~ 0
+Text Label 6650 3150 1    50   ~ 0
 A4
-Text Label 6750 3050 0    50   ~ 0
+Text Label 6750 3150 1    50   ~ 0
 A5
-Text Label 6850 3150 0    50   ~ 0
+Text Label 6850 3150 1    50   ~ 0
 A6
-Text Label 6950 3050 0    50   ~ 0
+Text Label 6950 3150 1    50   ~ 0
 A7
-Text Label 7050 3150 0    50   ~ 0
+Text Label 7050 3150 1    50   ~ 0
 A8
-Text Label 7150 3050 0    50   ~ 0
+Text Label 7150 3150 1    50   ~ 0
 A9
-Text Label 7250 3150 0    50   ~ 0
+Text Label 7250 3150 1    50   ~ 0
 A10
-Text Label 7350 3050 0    50   ~ 0
+Text Label 7350 3150 1    50   ~ 0
 A11
-Text Label 5300 3150 0    50   ~ 0
+Text Label 5300 3150 1    50   ~ 0
 DQ0
-Text Label 5400 3050 0    50   ~ 0
+Text Label 5400 3150 1    50   ~ 0
 DQ1
-Text Label 5500 3150 0    50   ~ 0
+Text Label 5500 3150 1    50   ~ 0
 DQ2
-Text Label 5600 3050 0    50   ~ 0
+Text Label 5600 3150 1    50   ~ 0
 DQ3
-Text Label 5700 3150 0    50   ~ 0
+Text Label 5700 3150 1    50   ~ 0
 DQ4
-Text Label 5800 3050 0    50   ~ 0
+Text Label 5800 3150 1    50   ~ 0
 DQ5
-Text Label 5900 3150 0    50   ~ 0
+Text Label 5900 3150 1    50   ~ 0
 DQ6
-Text Label 6000 3050 0    50   ~ 0
+Text Label 6000 3150 1    50   ~ 0
 DQ7
-Text Label 4900 3150 0    50   ~ 0
+Text Label 4900 3150 1    50   ~ 0
 CASP
-Text Label 5000 3000 0    50   ~ 0
+Text Label 5000 3150 1    50   ~ 0
 QP
-Text Label 5100 3150 0    50   ~ 0
+Text Label 5100 3150 1    50   ~ 0
 DP
-Text Label 4450 3150 0    50   ~ 0
+Text Label 4450 3150 1    50   ~ 0
 RAS
-Text Label 4550 3000 0    50   ~ 0
+Text Label 4550 3150 1    50   ~ 0
 CAS
 Text Label 4400 4600 0    50   ~ 0
 A4
@@ -430,7 +430,7 @@ Text Label 6200 4600 0    50   ~ 0
 A4
 Wire Wire Line
 	4650 2900 4650 3150
-Text Label 4650 3150 0    50   ~ 0
+Text Label 4650 3150 1    50   ~ 0
 WE
 Entry Wire Line
 	4650 3150 4750 3250
@@ -779,10 +779,10 @@ Wire Bus Line
 Wire Bus Line
 	4850 3250 6600 3250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 5FF5D9AB
 P 4400 4000
-F 0 "#PWR?" H 4400 3750 50  0001 C CNN
+F 0 "#PWR0111" H 4400 3750 50  0001 C CNN
 F 1 "GND" V 4405 3827 50  0000 C CNN
 F 2 "" H 4400 4000 50  0001 C CNN
 F 3 "" H 4400 4000 50  0001 C CNN
@@ -790,10 +790,10 @@ F 3 "" H 4400 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0112
 U 1 1 5FF5E134
 P 6200 4000
-F 0 "#PWR?" H 6200 3750 50  0001 C CNN
+F 0 "#PWR0112" H 6200 3750 50  0001 C CNN
 F 1 "GND" V 6205 3827 50  0000 C CNN
 F 2 "" H 6200 4000 50  0001 C CNN
 F 3 "" H 6200 4000 50  0001 C CNN
