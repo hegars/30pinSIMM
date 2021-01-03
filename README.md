@@ -1,4 +1,4 @@
-# 30 pin SIMM FP Memory Module Design
+# 4M Byte 30 pin SIMM FP Memory Module Design
  
 KiCAD design for a 4Mbyte 30 pin SIMM Fastpage DRAM Memory Module
  
