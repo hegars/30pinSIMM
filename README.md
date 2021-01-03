@@ -1,7 +1,5 @@
-# 4M Byte 30 pin SIMM FP Memory Module Design
+# 4MByte 30 pin SIMM Fast Page Mode Dynamic Random Access Memory Module Design
  
-KiCAD design for a 4Mbyte 30 pin SIMM Fastpage DRAM Memory Module
+KiCAD design for a 4MByte 30 pin SIMM Fast Page Mode Dynamic Random Access Memory Module Design
  
-4Mb 30 Pin SIMM FP RAM Module 
-
 WORK IN PROGRESS - Dont let your blue smoke out.
