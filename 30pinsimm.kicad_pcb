@@ -401,7 +401,7 @@
   (module Sebs:30pinSIMM (layer F.Cu) (tedit 5FF12120) (tstamp 5FF12249)
     (at 99.441 111.379)
     (path /5FED8101)
-    (fp_text reference SIMM1 (at 85.725 -14.224 180) (layer F.SilkS)
+    (fp_text reference SIMM30 (at 84.963 -14.351 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 30pinSIMM (at 5.08 -13.208) (layer F.Fab)
